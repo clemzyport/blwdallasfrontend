@@ -312,10 +312,15 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.hero-text-box .welcome-to {
+    
+    text-transform: none;
+}
+
 .logo {
     
-    margin-top: 20px;
-    height: 100px;
+    margin-top: 30px;
+    height: 90px;
     width: auto;
     float: left;
 }
