@@ -1,62 +1,196 @@
-
-
-
-/* Big tablets to 1200px (widths smaller than 1140px row)*/
 @media only screen and (max-width: 1200px) {
     
     .hero-text-box {
-    
         width: 100%;
         padding: 0 5%;
-}
-    
-    .row {padding: 0 5%;}
-    
-    .plan-box h3 {margin: 0 90px 20px 90px;}
-    
-}
+    }
 
+    .row {
+        padding: 0 5%;
+    }
 
-
-/* Small tablets to big tablets: from 768px to 1023px*/
-@media only screen and (max-width: 1023px) {
-    
-    
-    body { 
-        
-        font-size: 18px;
+    .plan-box h3 {
+        margin: 0 70px 20px 70px;
     }
     
-    .main-nav {
-    
-    margin-top: 60px;
-    margin-left: -220%;
-    padding: 0 400px;
 }
+
+@media only screen and (max-width: 1024px) {
+
+.plan-box h3 {
+        margin: 0 30px 20px 30px;
+    }
+    
+    .plan-box {
+        
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+}
+
+@media only screen and (max-width: 780px) {
 
     .main-nav li {
+        margin-left: 1em;
+    }
     
-    margin-left: 20px;
+    .plan-box h3 {
+        margin: 0 30px 20px 30px;
+    }
+    
+    .plan-box {
+        
+        font-size: 11px;
+        font-weight: 400;
+    }
+
 }
+
+@media only screen and (max-width: 700px) {
+
+    h2 { font-size: 20px; }
     
+    .logo {
+        
+        position: relative;
+        left: 30px;
+    }
+
+    .main-nav {
+        top: 70px;
+        width: 100%;
+        text-align: center;
+        padding-left: 200px;
+    }
+
+    .main-nav li {
+        margin-top: 5px;
+    }
+
+    .hero-text-box {
+        top: 300px;
+        bottom: 0;
+    }
+
+    .hero-text-box h1 {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .info-section > .row {
+        padding-top: 1em;
+    }
+
+    .meals-showcase li {
+        width: 50%;
+    }
+
 }
 
-
-
-
-
-/* Small phones to small tablets: from 481px to 767px*/
-@media only screen and (max-width: 767px) {
-    
-    
-}
-
-
-
-
-/* Small phones: from 0 to 480px*/
 @media only screen and (max-width: 480px) {
+
+    .logo {
+        
+        position: relative;
+        left: 70px;
+    }
     
+    .hero-text-box {
+        
+        padding-top: 80px;
+    }
     
+    .hero-text-box h1 {
+        font-size: 1.5em;
+    }
+
+    .steps-box:first-child {
+        padding-right: 0px;
+    }
+
+    .plan-price span {
+        font-size: 100%;
+    }
+
+    .col.span_1_of_4.box {
+        width: 100%;
+    }
+
+    .col.span_1_of_4.box > h3 {
+        text-align: center;
+    }
+    
+    .meal-picture-divider {
+    
+    font-size: 10px;
+}
+    
+    .meal-picture-divider:after {
+        
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: -4px;
+    position: relative;
+    left: 60px;
+    bottom: 25px;
 }
 
+.meal-picture-divider-2:after {
+    
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    position: relative;
+    right: 60px;
+    bottom: 25px;
+}
+    
+    
+    .main-nav {
+        top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    html,
+    body, p, 
+    h2, h3, .box {
+        
+        font-size: 15px;
+        padding: 0 10px 0 5px;
+    }
+    
+    .plan-box {
+        
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    
+    html,
+    body, p, 
+    h2, h3, .box {
+        
+        font-size: 12px;
+    }
+    
+    .section-plans {
+        
+        margin-right: 100px;
+    }
+    
+    .plan-box {
+        
+        font-size: 15px;
+        font-weight: 200;
+    }
+    
+}

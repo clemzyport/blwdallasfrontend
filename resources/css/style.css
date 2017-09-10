@@ -562,7 +562,7 @@ overflow: hidden;
 
 .box img {
     
-    width: 70%;
+    width: 50%;
     height: auto;
     margin-left: 140px;
     
@@ -574,15 +574,27 @@ overflow: hidden;
     
 }
 
+.address h3 {
+    
+    text-align: left;
+}
+
 .address-details {
     
-    margin-bottom: 5px;
+    margin: 10px 0 0 30px;
+    text-align: left;
     
 }
 
 .address-details-2 {
     
     margin-top: 40px;
+}
+
+.address-details:first-child {
+    
+    padding-top: 30px;
+    
 }
 
 .link-social:link,
@@ -799,12 +811,14 @@ footer {
     
     list-style: none;
     float: left;
+    padding-left: 40px;
 }
 
 .social-links {
     
     list-style: none;
     float: right;
+    padding-right: 40px;
 }
 
 .footer-nav li,
