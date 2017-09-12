@@ -61,9 +61,13 @@ blockquote > cite {
 	text-align: center;
 }
 
+blockquote2 > cite2 {
+	text-align: center;
+}
+
 .section-plans {
     display: table;
-    padding: 5px;
+    padding: 20px 50px;
     height: auto;
 }
 

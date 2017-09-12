@@ -1,4 +1,21 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 2560px) {
+    
+    html,
+    body, p, h3, .box {
+        
+        font-size: 30px;
+        padding: 0 10px 0 5px;
+    }
+    
+    
+@media only screen and (max-width: 1600px) {
+    
+    html,
+    body, p, h3, .box {
+        
+        font-size: 20px;
+        padding: 0 10px 0 5px;
+    }
     
     .hero-text-box {
         width: 100%;
@@ -13,10 +30,29 @@
         margin: 0 70px 20px 70px;
     }
     
+    .info-section .box:first-child {
+    
+    padding-left: 30px;
+    position: relative;
+    left: 15px;
+}
+    
+    blockquote2 .e-mail {
+        
+        text-align: center;
+    }
+    
 }
 
 @media only screen and (max-width: 1024px) {
 
+    html,
+    body, p, h3, .box {
+        
+        font-size: 15px;
+        padding: 0 10px 0 5px;
+    }
+    
 .plan-box h3 {
         margin: 0 30px 20px 30px;
     }
@@ -27,10 +63,26 @@
         font-weight: 400;
     }
     
+    .plan-box-whole {
+        
+        margin: 0 -50px;
+    }
+    
+    .works-steps p {
+        
+        margin: 30px -40px;
+        padding-top: 14%;
+    }
+    
+    
+    
 }
+
 
 @media only screen and (max-width: 780px) {
 
+    
+           
     .main-nav li {
         margin-left: 1em;
     }
@@ -41,8 +93,27 @@
     
     .plan-box {
         
-        font-size: 11px;
-        font-weight: 400;
+        font-size: 12px;
+        
+    }
+    
+    .plan-box-whole {
+        
+        margin: 0 -50px;
+    }
+    
+     .info-section .box:first-child {
+    
+        padding-left: 30px;
+        position: relative;
+        left: 0;
+        font-size: 15px;
+}
+    
+    .works-steps p {
+        
+        margin: 30px -20px;
+        padding-top: 18%;
     }
 
 }
@@ -83,6 +154,14 @@
     .info-section > .row {
         padding-top: 1em;
     }
+    
+     .info-section .box:first-child {
+    
+        padding-left: 30px;
+        position: relative;
+        left: 0;
+        font-size: 15px;
+}
 
     .meals-showcase li {
         width: 50%;
@@ -90,9 +169,9 @@
 
 }
 
-@media only screen and (max-width: 480px) {
-
-    .logo {
+@media only screen and (max-width: 600px) {
+    
+        .logo {
         
         position: relative;
         left: 70px;
@@ -158,10 +237,16 @@
     }
     
     html,
-    body, p, 
-    h2, h3, .box {
+    body, p, h3, .box {
         
-        font-size: 15px;
+        font-size: 13px;
+        padding: 0 10px 0 5px;
+    }
+    
+    
+    h2 {
+        
+        font-weight: 400;
         padding: 0 10px 0 5px;
     }
     
@@ -169,17 +254,150 @@
         
         font-size: 20px;
         font-weight: 300;
+        margin: 0 -45px;
     }
 
 }
+    
+    
+@media only screen and (max-width: 480px) {
 
-@media only screen and (max-width: 320px) {
+    .logo {
+        
+        position: relative;
+        left: 60px;
+    }
+    
+    .hero-text-box {
+        
+        padding-top: 20px;
+    }
+    
+    .hero-text-box h1 {
+        font-size: 1.5em;
+    }
+
+    .steps-box:first-child {
+        padding-right: 0px;
+    }
+
+    .plan-price span {
+        font-size: 100%;
+    }
+
+    .col.span_1_of_4.box {
+        width: 100%;
+    }
+
+    .col.span_1_of_4.box > h3 {
+        text-align: center;
+    }
+    
+    .meal-picture-divider {
+    
+    font-size: 10px;
+}
+    
+    .meal-picture-divider:after {
+        
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: -4px;
+    position: relative;
+    left: 60px;
+    bottom: 25px;
+}
+
+.meal-picture-divider-2:after {
+    
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    position: relative;
+    right: 60px;
+    bottom: 25px;
+}
+    
+    
+    .main-nav {
+        top: 70px;
+        width: 100%;
+        text-align: center;
+    }
     
     html,
     body, p, 
     h2, h3, .box {
         
-        font-size: 12px;
+        font-size: 20px;
+        padding: 0 10px 0 5px;
+    }
+    
+    .plan-box {
+        
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    
+    .plan-box {
+        
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0 -10px;
+    }
+    
+    .info-section p {
+        
+        margin: 0 -40px;
+    }
+    
+    .works-steps p {
+        
+        margin: 40px -20px;
+        padding-top: 35%;
+    }
+    
+    blockquote2 .e-mail {
+        
+        padding-top: 0;
+        margin-top: -30px;
+    }
+
+}  
+    
+    
+@media only screen and (max-width: 418px) {
+    
+    .hero-text-box {
+        
+        padding-bottom: -25%;
+    }
+    
+    }
+    
+    
+@media only screen and (max-width: 320px) {
+    
+    .logo {
+        
+        position: relative;
+        left: 35px;
+    }
+    
+    html,
+    body, p, 
+    h2, h3, .box {
+        
+        font-size: 15px;
+    }
+    
+    .works-steps p {
+        
+        margin: 30px -20px;
+        padding-top: 45%;
     }
     
     .section-plans {
@@ -190,7 +408,7 @@
     .plan-box {
         
         font-size: 15px;
-        font-weight: 200;
+        font-weight: 400;
     }
     
 }

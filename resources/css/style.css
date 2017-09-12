@@ -216,6 +216,33 @@ h3 {
     
 }
 
+.icon-small-2 {
+    
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 200%;
+    line-height: 200%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.icon-small-3 {
+    
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-right: 2px;
+    
+}
+
 
 /*--------BUTTONS--------*/
 
@@ -394,6 +421,18 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
     
+} 
+
+.info-section {
+    
+    padding-left: 100px;
+}
+
+.info-section .box:first-child {
+    
+    padding-left: 30px;
+    position: relative;
+    left: 30px;
 }
 
 
@@ -498,6 +537,12 @@ overflow: hidden;
 /*-------------------------------------------------------------------------*/
 /* ABOUT FORMATTING*/
 /*-------------------------------------------------------------------------*/
+
+.all-steps-box p {
+    
+    padding: 0 10%;
+    word-spacing: 8px;
+}
 
 .section-steps {
     
@@ -664,6 +709,59 @@ cite img {
     
     height: 45px;
     border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.pastors-contacts {
+    
+    padding-top: 0;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+blockquote2 {
+    
+    padding: 0 5% 5% 10%;
+    font-style: italic;
+    line-height: 145%;
+    font-size: 80%;
+    position: relative;
+}
+
+blockquote2 .e-mail {
+    
+    padding-top: 80px;
+    margin-left: -30px;
+}
+
+cite2 {
+    
+    font-size: 80%;
+    margin-top: -10px;
+    display: block;
+    text-align: left;
+    
+}
+
+cite2 p {
+    
+    margin-top: 20px;
+    font-weight: 400 !important;
+}
+
+cite2 .nos {
+    
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+cite2 img {
+    
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #e67e22;
     margin-right: 10px;
     vertical-align: middle;
 }
