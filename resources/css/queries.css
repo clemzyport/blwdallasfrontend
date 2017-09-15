@@ -14,7 +14,7 @@
     body, p, h3, .box {
         
         font-size: 20px;
-        padding: 0 10px 0 5px;
+        padding: 0;
     }
     
     .hero-text-box {
@@ -50,7 +50,7 @@
     body, p, h3, .box {
         
         font-size: 15px;
-        padding: 0 10px 0 5px;
+        padding: 0;
     }
     
 .plan-box h3 {
@@ -94,12 +94,12 @@
     .plan-box {
         
         font-size: 12px;
-        
     }
     
     .plan-box-whole {
         
         margin: 0 -50px;
+        
     }
     
      .info-section .box:first-child {
@@ -115,6 +115,8 @@
         margin: 30px -20px;
         padding-top: 18%;
     }
+    
+    .contact-form { width: 90%; }
 
 }
 
@@ -140,7 +142,7 @@
     }
 
     .hero-text-box {
-        top: 300px;
+        top: 600px;
         bottom: 0;
     }
 
@@ -149,10 +151,6 @@
         text-align: center;
         margin-top: 2em;
         margin-bottom: 2em;
-    }
-
-    .info-section > .row {
-        padding-top: 1em;
     }
     
      .info-section .box:first-child {
@@ -185,6 +183,8 @@
     .hero-text-box h1 {
         font-size: 1.5em;
     }
+    
+    .info-section { padding: 0 20px; }
 
     .steps-box:first-child {
         padding-right: 0px;
@@ -195,6 +195,10 @@
     }
 
     .col.span_1_of_4.box {
+        width: 100%;
+    }
+    
+    .col.span_1_of_3.box {
         width: 100%;
     }
 
@@ -252,9 +256,16 @@
     
     .plan-box {
         
-        font-size: 20px;
-        font-weight: 300;
-        margin: 0 -45px;
+        width: 105%;
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0 -10px;
+    }
+    
+    .works-steps p {
+        
+        margin: 30px -20px;
+        padding-top: 25%;
     }
 
 }
@@ -279,10 +290,6 @@
 
     .steps-box:first-child {
         padding-right: 0px;
-    }
-
-    .plan-price span {
-        font-size: 100%;
     }
 
     .col.span_1_of_4.box {
@@ -332,14 +339,6 @@
     h2, h3, .box {
         
         font-size: 20px;
-        padding: 0 10px 0 5px;
-    }
-    
-    .plan-box {
-        
-        font-size: 20px;
-        font-weight: 300;
-        margin-top: 10px;
     }
     
     .plan-box {
@@ -363,8 +362,13 @@
     blockquote2 .e-mail {
         
         padding-top: 0;
-        margin-top: -30px;
     }
+    
+    .info-section .box {
+    
+    text-align: center;
+    padding: 0 30px 0 50px;
+}
 
 }  
     
